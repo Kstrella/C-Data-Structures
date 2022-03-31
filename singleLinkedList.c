@@ -20,6 +20,7 @@ Node *deleteFront(Node *);
 void freeList(Node *);
 
 
+
 int main()
 {
    // Here we create the linked list and set it equal to null to show that it is empty.
@@ -150,3 +151,6 @@ void freeList(Node *head)
 
     free(head);
 }
+
+
+
